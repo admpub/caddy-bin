@@ -26,6 +26,13 @@ xcaddy() {
 
     $PWD/tools/xcaddy build $CADDY_VERSION \
         --with github.com/caddy-dns/cloudflare \
+        --with github.com/caddy-dns/acmedns \
+        --with github.com/caddy-dns/edgeone \
+        --with github.com/caddy-dns/he \
+        --with github.com/caddy-dns/rfc2136 \
+        --with github.com/caddy-dns/tencentcloud \
+        --with github.com/sjtug/caddy2-filter \
+        --with github.com/mholt/caddy-ratelimit \
         --output dist/$DIRNAME/$FILENAME
 
     if [ -f "dist/$DIRNAME/$FILENAME" ]; then
