@@ -60,3 +60,5 @@ xcaddy linux arm64
 xcaddy windows 386
 xcaddy windows amd64
 xcaddy windows arm64
+
+# https://caddyserver.com/api/download?os=linux&arch=amd64&p=github.com/caddy-dns/cloudflare&p=github.com/caddy-dns/acmedns&p=github.com/LeenHawk/edgeone&p=github.com/caddy-dns/he&p=github.com/caddy-dns/rfc2136&p=github.com/caddy-dns/tencentcloud&p=github.com/sjtug/caddy2-filter&p=github.com/mholt/caddy-ratelimit
